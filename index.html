@@ -22,32 +22,37 @@
         integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <!-- JavaScript Link -->
     <script src="app.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
     <title>GIFY APP</title>
 </head>
 
 <body>
     <div class="row mt-4">
         <!-- Main Row for buttons-->
-        <div class="col-sm-12">
-            <div id="button-placeHolder"></div>
+        <div class="col-sm-8">
+            <div id="buttons-view"></div>
+        </div>
+        <div class="col-sm-4">
+            <div id=" "></div>
         </div>
     </div>
 
     <div class="row mt-4">
-        <!-- Generator Button-->
+        <!-- Generator Button/ Gif Area-->
         <div class="col-sm-8">
-            <div id="button-placeHolder"></div>
+                <div id="gifs-appear-here">
+                    </div>
         </div>
         <div class="col-sm-4">
             <form>
                 <div class="form-group">
                     <label for="exampleInputEmail1">GIF Adder</label>
-                    <input type="text" class="form-control" id="gifinput"
-                        placeholder="BE CREATIVE....">
-                    <small id="emailHelp" class="form-text text-muted">This Will Add a Button for the Gif
+                    <input type="text" class="form-control" id="gifinput" placeholder="BE CREATIVE....">
+                    <small id="help" class="form-text text-muted">This Will Add a Button for the Gif
                         else.</small>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" id="add-gif" class="btn btn-primary">Submit</button>
             </form>
         </div>
     </div>
